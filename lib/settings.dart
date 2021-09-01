@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:upwork/navbar.dart';
+import 'package:upwork/new%20navbar%20.dart';
 import 'package:upwork/prodile.dart';
 
 import 'loginpage.dart';
@@ -23,7 +24,7 @@ class Settings extends StatelessWidget {
             Navigator.push(
                 context,
                 new MaterialPageRoute(
-                    builder: (BuildContext context) => Navbar(index: 1))
+                    builder: (BuildContext context) => AppHome(pageIndex: 1))
 
             );
           },

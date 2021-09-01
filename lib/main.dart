@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:upwork/new%20navbar%20.dart';
 
 import 'loginpage.dart';
 import 'navbar.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Navbar(index: 0,),
+      home: AppHome(pageIndex: 0,),
     );
   }
 }
