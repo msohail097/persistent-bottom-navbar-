@@ -32,9 +32,7 @@ class _HomePageState extends State<Navbar> {
         _pageController.animateToPage(widget.index, duration: Duration(milliseconds: 1), curve: Curves.easeInOut);
       }
     });
-      // setState(() {
-    //
-    // });
+
   }
 
   @override
